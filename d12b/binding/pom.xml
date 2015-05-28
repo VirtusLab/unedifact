@@ -5,16 +5,16 @@
     <parent>
         <groupId>org.milyn.edi</groupId>
         <artifactId>unedifact-gen-parent</artifactId>
-        <version>1.5.1</version> <!-- base pom version - do not remove this comment -->
+        <version>1.5.3-SNAPSHOT</version> <!-- base pom version - do not remove this comment -->
         <relativePath>../../parent/pom.xml</relativePath>
     </parent>
     <name>Smooks EDI - UN/EDIFACT - D12B - Bindings</name>
-    <groupId>org.milyn.edi.unedifact</groupId>
+    <groupId>org.virtuslab.edi.unedifact</groupId>
     <artifactId>d12b-binding</artifactId>
 
     <dependencies>
         <dependency>
-            <groupId>org.milyn.edi.unedifact</groupId>
+            <groupId>org.virtuslab.edi.unedifact</groupId>
             <artifactId>d12b-mapping</artifactId>
             <version>${project.version}</version>
         </dependency>
@@ -23,7 +23,7 @@
     <build>
         <plugins>
             <plugin>
-                <groupId>org.milyn</groupId>
+                <groupId>org.virtuslab</groupId>
                 <artifactId>maven-ejc-plugin</artifactId>
                 <version>${project.version}</version>
                 <configuration>
@@ -34,7 +34,7 @@
                 </executions>
                 <dependencies>
                     <dependency>
-                        <groupId>org.milyn.edi.unedifact</groupId>
+                        <groupId>org.virtuslab.edi.unedifact</groupId>
                         <artifactId>d12b-mapping</artifactId>
                         <version>${project.version}</version>
                     </dependency>

@@ -5,22 +5,22 @@
     <parent>
         <groupId>org.milyn.edi</groupId>
         <artifactId>unedifact-gen-parent</artifactId>
-        <version>1.5.1</version> <!-- base pom version - do not remove this comment -->
+        <version>1.5.3-SNAPSHOT</version> <!-- base pom version - do not remove this comment -->
         <relativePath>../../parent/pom.xml</relativePath>
     </parent>
-    <groupId>org.milyn.edi.unedifact</groupId>
+    <groupId>org.virtuslab.edi.unedifact</groupId>
     <artifactId>d03b-test</artifactId>
     <name>Smooks EDI - UN/EDIFACT - D03B - Tests</name>
 
     <dependencies>
         <dependency>
-            <groupId>org.milyn.edi.unedifact</groupId>
+            <groupId>org.virtuslab.edi.unedifact</groupId>
             <artifactId>d03b-binding</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.milyn</groupId>
+            <groupId>org.virtuslab</groupId>
             <artifactId>milyn-smooks-edi-test</artifactId>
             <version>${project.version}</version>
             <scope>test</scope>
